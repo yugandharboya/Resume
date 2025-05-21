@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Developer</title>
+    <link rel="icon" href="./icons8-resume-50.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <!-- <script src="./index.js"></script> -->
+
+    <!-- <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .roboto {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 900;
+            font-size: 16px;
+        }
+
+        .textcolor {
+            color: hsl(233, 76%, 64%);
+            /* #a9dddc */
+        }
+
+        .poppins {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 1.4rem;
+        }
+
+        main {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .line {
+            border: 1px solid black;
+            margin: 0.5rem 1rem;
+        }
+
+        #leftSide {
+            width: 38%;
+            height: auto;
+        }
+
+        #leftSide a {
+            color: black;
+            text-decoration: none;
+        }
+
+        .text {
+            margin-left: 1rem;
+            padding-bottom: 6px;
+        }
+
+        .imageDiv {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .imageDiv img {
+            margin-top: 1rem;
+            height: 180px;
+            width: 200px;
+            border-radius: 50%;
+        }
+
+        .ulclass {
+            margin-left: 32px;
+        }
+
+        .intro {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .details {
+            padding: 3px;
+        }
+
+        .alldetails {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            margin-left: 15px;
+        }
+
+        .details span i {
+            padding-right: 4px;
+        }
+
+        .skills {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .skills .frontend {
+            margin-left: 4rem;
+        }
+
+        .skills .backend {
+            margin-right: 4rem;
+        }
+
+        .frontend h4 {
+            padding-bottom: 10px;
+        }
+
+        .backend h4 {
+            padding-bottom: 10px;
+        }
+
+        .certificates {
+            display: flex;
+            flex-direction: column;
+        }
+
+        #certificate a {
+            padding: 4px 0px;
+        }
+
+        .matter {
+            padding-left: 15px;
+        }
+
+        .python {
+            padding-left: 15px;
+            padding-top: 5px;
+        }
+
+        .certi {
+            margin-bottom: 1rem;
+        }
+
+        #netlifyimg {
+            width: 1rem;
+        }
+
+        /* Right Side */
+        #name {
+            font-size: 20px;
+            color: hsl(233, 76%, 64%);
+        }
+
+        #rightSide {
+            width: 60%;
+        }
+
+        #rightSide .Internships .links a {
+            text-decoration: none;
+            color: blue;
+        }
+
+        #rightSide .Internships .links :hover {
+            text-decoration: underline;
+        }
+
+        #name {
+            padding: 10px 10px;
+        }
+
+        #description {
+            padding-left: 10px;
+        }
+
+        table tr td {
+            padding: 0px 5px;
+        }
+
+        .habib {
+            display: flex;
+            flex-direction: column;
+            margin-left: 15px;
+        }
+
+        .habib h3 {
+            margin-bottom: 7px;
+        }
+
+        .habib a {
+            margin: 5px 0px;
+        }
+
+        .links {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding: 0px 40px;
+        }
+
+        .projects {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .projects .project a {
+            color: blue;
+            text-decoration: none;
+        }
+
+        .projects .project a:hover {
+            text-decoration: underline;
+        }
+
+        .project {
+            display: flex;
+            flex-direction: row;
+            gap: 1.5rem;
+            margin: 3px 16px;
+        }
+
+        .project p {
+            width: 210px;
+        }
+
+        .project a {
+            margin: 0px 1.5rem;
+        }
+
+        .achievments ul {
+            margin-left: 15px;
+        }
+
+        .achievments ul li {
+            padding: 2px 0px;
+            list-style-type: none;
+        }
+
+        .end {
+            margin: 0px 100px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-start;
+        }
+
+        .edu {
+            margin-left: 18px;
+            margin-bottom: 10px;
+        }
+
+        .edutable {
+            margin-left: 10px;
+        }
+    </style> -->
+
+</head>
+
+<body>
+
+    <main class="main-container">
+
+        <div class="page-leftside-container">
+            <div class="image-container">
+                <img src="./image.jpg" alt="Capture23" />
+                <h2 style="color:darkblue;margin-bottom: 5px;">Yugandhar Boya</h2>
+                <h3 style="color: #6c757d; font-family: Arial, sans-serif; font-size: 24px; font-weight: normal; margin-top: 0;">A Full Stack Web Developer</h3>
+            </div>
+
+                <hr class="custom-line"/>
+                <div class="technical-skills-container">
+                    <div><h3 class="page-rightside-container-headings">TECHNICAL SKILLS</h3></div>
+                    <div style="display:flex; gap:10px;">
+                    <div class="frontend-skills-container">
+                        <h4 class="technical-skills-headings">Frontend Skills</h4>
+                        <ul style="margin-top:0px;">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JAVASCRIPT</li>
+                            <li>BootStrap</li>
+                            <li>GIT</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="backend-skills-container">
+                        <h4 class="technical-skills-headings">Backend Skills</h4>
+                        <ul>
+                            <li>SQL</li>
+                        </ul>
+                    </div>
+                    <div class="programming-languages-container">
+                    <h4 class="technical-skills-headings">Programming Language: </h4> 
+                    <ul>
+                        <li>PYTHON</li>
+                    </ul>
+                     </div>
+                </div>
+                
+                <hr class="custom-line"/>
+
+                <div>
+                    <h3 class="page-rightside-container-headings" style="margin-top:0px;">PROFESSIONAL SKILLS</h3>
+                    <div style="margin-left:30px;>
+                    <ul style="list-style-type: disc; padding-left: 20px; margin-top: 0;">
+                        <li>Excellent verbal and written communication</li>
+                        <li>Quick and self-motivated learner</li>
+                        <li>Effective team collaboration and contribution</li>
+                        <li>Proactive with a strong sense of initiative</li>
+                    </ul>
+                </div>
+                </div>
+                
+                <hr class="custom-line"/>
+                <h4 class="page-rightside-container-headings" style="margin-top:0px;">LANGUAGES KNOWN</h4>
+                <div class="languages-container">
+                    <ul style="margin-top:0px;">
+                        <li>Telugu</li>
+                        <li>English</li>
+                    </ul>
+                </div>
+                <hr class="custom-line"/>
+                <h3 class="page-rightside-container-headings" style="margin-top:0px;">GET IN TOUCH!</h3>
+                <div class="get-in-touch-container">
+                    <div>
+                        <span><i class="fa-solid fa-phone" style="margin-right:10px;"></i></span>
+                        <a href="tel:+919848181206" target="_blank" rel="noreferrer">9848181206</a>
+                    </div>
+                    <div>
+                        <span><i class="fa-solid fa-envelope" style="margin-right:10px;"></i></span>
+                        <a href="mailto:boyayugandhar135@gmail.com" target="_blank">boyayugandhar135@gmail.com</a>
+                    </div>
+                    <div >
+                        <span><i class="fa-brands fa-linkedin" style="margin-right:10px;"></i></span>
+                        <a href="https://www.linkedin.com/in/yugandhar-boya-206231312/" target="_blank">linkedin</a>
+                    </div>
+                    <div>
+                        <span><i class="fa-brands fa-github" style="margin-right:10px;"></i></span>
+                        <a href="https://github.com/yugandharboya" target="_blank">GitHub</a>
+                    </div>
+                    <div>
+                        <span><i class="fa-solid fa-square" style="margin-right:10px;"></i></span>
+                        <a href="https://app.netlify.com/teams/callasumamahesh/sites" target="_blank">Netlify</a>
+                    </div>
+                </div>
+            </div>
+                        
+               </div> 
+
+          <div class="page-rightside-container poppins">
+            <h2 class="page-rightside-container-headings">ABOUT ME</h2>
+
+          <div class="About-me-description-container">
+            <p>
+                      I am a dedicated and versatile individual with a strong foundation in web development, currently expanding my expertise in full-stack technologies including the MERN stack. With a background in HTML, CSS, JavaScript, Bootstrap, SQL, and Python, I am passionate about building efficient and user-friendly web applications. In addition to my tech skills, I manage my own pest control business, showcasing my entrepreneurial spirit and ability to balance multiple responsibilities. I am a quick learner, a problem solver, and a team player committed to continuous growth and delivering high-quality work.
+            </p>
+         </div>
+            
+            <h3 class="page-rightside-container-headings">NON-IT Experience</h3>
+            <div class="Non-It-Experience-description-container">
+                <p>
+                  <div>
+                    <span style="color: hsl(233, 40%, 40%); font-weight: bold; padding: 2px 6px; border-radius: 5px; margin-bottom:5px;">Currently</span>
+                    – Entrepreneur managing Yugandhar Pest Control Service
+                  </div>
+                  <div>
+                    <span style="color: hsl(233, 40%, 40%); font-weight: bold; padding: 2px 6px; border-radius: 5px;">1 Year</span>
+                    – Pest Control Service Provider at UrbanClap Technologies
+                  </div>
+                  <div>
+                    <span style="color: hsl(233, 40%, 40%); font-weight: bold; padding: 2px 6px; border-radius: 5px;">1 Year</span>
+                    – Delivery Executive
+                  </div>
+              
+                  <h3 style="color: hsl(233, 80%, 40%); font-weight: bold; padding-bottom:0px;">Skills Gained During This Journey:</h3>
+              
+                  <div>
+                    <span style="color:hsl(233, 80%, 40%);font-weight: bold; font-size: 17px;">1. Communication Skills:</span>
+                    Improved through regular customer interactions—clearly explaining services, resolving issues, and maintaining a professional tone.
+                  </div>
+              
+                  <div>
+                    <span style="color:hsl(233, 80%, 40%);font-weight: bold; font-size: 17px;">2. Leadership:</span>
+                    Built by managing a small team, assigning tasks, and making business decisions to ensure smooth operations.
+                  </div>
+              
+                  <div>
+                    <span style="color:hsl(233, 80%, 40%);font-weight: bold; font-size: 17px;">3. Time Management:</span>
+                    Learned by balancing appointments, delivery schedules, and personal responsibilities efficiently.
+                  </div>
+              
+                  <div>
+                    <span style="color:hsl(233, 80%, 40%);font-weight: bold; font-size: 17px;">4. Customer Service:</span>
+                    Enhanced by providing reliable service, understanding client needs, and ensuring satisfaction and repeat business.
+                  </div>
+                </p>
+              </div>
+              
+            <h2 class="textcolor text page-rightside-container-headings">Study Details</h2>
+            <div class="study-details-container">
+                <table border="1" cellspacing="0" cellpadding="8">
+                  <thead>
+                    <tr>
+                    
+                      <th>Education Level</th>
+                      <th>Institute Name</th>
+                      <th>Duration</th>
+                      <th>Specialization</th>
+                      <th>CGPA / Percentage</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                     
+                      <td>10th</td>
+                      <td>Z.P.H.S High School</td>
+                      <td>June 2013 – March 2015</td>
+                      <td>General Education</td>
+                      <td>9.2 CGPA</td>
+                    </tr>
+                    <tr>
+                     
+                      <td>Intermediate</td>
+                      <td>Sri Chaitanya Jr. College</td>
+                      <td>June 2015 – March 2017</td>
+                      <td>MPC</td> <!-- You can change to BiPC/CEC etc -->
+                      <td>87%</td>
+                    </tr>
+                    <tr>
+                     
+                      <td>Degree</td>
+                      <td>ABC Degree College</td>
+                      <td>July 2018 – May 2021</td>
+                      <td>B.Sc. Computer Science</td> <!-- Change based on your degree -->
+                      <td>7.8 CGPA</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              
+
+              <div class="signature-container" style="margin-top: 30px;">
+                <p style="margin: 0; font-size: 18px;">
+                  <strong>Signature:</strong> Boya Yugandhar
+                </p>
+                <p style="margin: 0; font-size: 18px;">
+                    Date: <span id="current-date"></span>
+                  </p>
+              </div>
+              
+              
+              <script>
+                  // Set today's date automatically
+                  document.getElementById("current-date").textContent = new Date().toLocaleDateString();
+              </script>
+              
+            
+
+        </div>
+    
+</main>
+    <!-- <script>
+        const data = new Date()
+        const day = data.getDate()
+        const month = data.getMonth() + 1
+        const year = data.getFullYear();
+        const realData = `${day}-${month}-${year}`
+        console.log(realData)
+        const datePlace = document.getElementById('Date');
+        datePlace.innerHTML = realData
+    </script> -->
+
+</body>
+
+</html>

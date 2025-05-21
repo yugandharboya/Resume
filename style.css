@@ -1,0 +1,143 @@
+<style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        p{
+            font-family: 'Roboto', sans-serif;
+        }
+        .main-container {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: row;
+            padding:5px;
+        gap:10px;
+            border: #00BFFF solid 2px;
+        }
+        .page-leftside-container{
+            margin-left: 5px;
+            padding: 5px;
+            width: 35vw;
+            height: auto;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+            border-radius: 10px;
+        }
+        .page-rightside-container {
+            width: 65vw;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+            border-radius: 10px;
+            padding:15px 5px 0px 10px;
+        }
+        .technical-skills-container{
+            margin-left: 20px;
+             display: flex;
+             flex-direction: column;
+             justify-content: space-between;
+             align-items: flex-start;
+             flex-wrap: wrap;
+             padding: 0px;
+             
+         }
+        
+         .technical-skills-headings{
+             color: hsl(233, 30%, 60%);
+ 
+ 
+         }
+ 
+        .page-rightside-container-headings {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 900;
+            font-size: 16px;
+            font-size: 20px;
+            color: hsl(233, 90%, 40%);
+        }
+        .education-details-container{
+            margin-left: 50px;
+        }
+        .About-me-description-container{
+            margin-left: 50px;
+        }
+
+        .Non-It-Experience-description-container {
+            
+            margin-left: 50px;
+        }
+
+.languages-container ul{
+    display: flex;
+    margin-left: 50px;
+    gap:20px;
+}
+
+        .image-container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .image-container img {
+            margin-top: 1rem;
+            height: 180px;
+            width: 200px;
+            border-radius: 50%;
+        }
+
+
+     .get-in-touch-container{
+        display: flex;
+        flex-direction: column;
+        gap:5px;
+        margin-left: 40px;
+
+     }
+       
+        #netlifyimg {
+            width: 1rem;
+        }
+
+        .signature-container{
+            margin: 50px 100px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-start;
+            gap:10px;
+        }
+
+        .study-details-container {
+            margin-left: 50px;
+          }
+          
+          .study-details h2 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+          }
+          
+          .study-details table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            font-size: 14px;
+          }
+          
+          .study-details th {
+            background-color: #f2f2f2;
+          }
+          
+          .study-details th,
+          .study-details td {
+            border: 1px solid #ccc;
+            padding: 8px;
+          }
+          .custom-line {
+            border: 1px solid black;
+            margin: 0.5rem 1rem;
+        }
+          
+    </style>
